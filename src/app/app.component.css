@@ -1,0 +1,386 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.front-img {
+    width: 100%;
+}
+
+.caption {
+    position: absolute;
+    top: 66%;
+    left: 0%;
+    width: 100%;
+}
+
+
+
+.caption1 {
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    width: 100%;
+}
+
+.caption2 {
+    position: absolute;
+    top: 35%;
+    left: 0%;
+    width: 100%;
+}
+
+.stud-btn {
+    width: 160px;
+    border: 0.5px solid white;
+    border-radius: 8px;
+    height: 120px;
+}
+
+/* .btn-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+} */
+
+.login-page {
+    background-color: rgba(238, 242, 245, 255);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yaaho-para {
+    margin-top: -10%;
+    left: 9%;
+    position: relative;
+}
+
+
+
+
+
+.fa-circle-check {
+    left: 11%;
+    position: relative;
+    margin-top: -4%;
+}
+
+
+
+
+.password-sec {
+    margin-top: -4%;
+}
+
+
+
+
+
+.password {
+    top: 60%;
+}
+
+
+.remember-sec {
+    position: absolute;
+
+}
+
+
+
+
+
+
+
+
+.forgot-para {
+    position: absolute;
+    left: 30%;
+}
+
+
+
+
+
+.login-btn {
+    /* margin-top: -30%; */
+    position: relative;
+    left: 43%;
+    padding: 5px;
+    border: 0.5px solid rgba(3, 83, 180, 255);
+    border-radius: 20px;
+}
+
+
+
+
+
+.account-btn {
+    position: relative;
+    font-weight: 600;
+    left: 43%;
+    border: 0.5px solid white;
+    border-radius: 20px;
+}
+
+
+
+
+
+/* Fourth Page End */
+.sign-up-page {
+    background-color: rgba(238, 242, 245, 255);
+    position: relative;
+    width: 100%;
+    height: 110vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+.signup-head {
+    color: rgba(95, 96, 101, 255);
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+.right-check {
+    left: 11%;
+    position: relative;
+    margin-top: -4%;
+}
+
+
+
+
+
+.right-check2 {
+    left: 11%;
+    position: relative;
+    margin-top: -4%;
+}
+
+
+
+
+
+
+
+
+
+.right-check3 {
+    left: 11%;
+    position: relative;
+    margin-top: -4%;
+}
+
+
+
+
+
+
+
+
+
+.signup-btn {
+    /* margin-top: -30%; */
+    position: relative;
+    left: 43%;
+    padding: 5px;
+    border: 0.5px solid rgba(3, 83, 180, 255);
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+/*                                  fiveth Page End                                   */
+.class-page {
+    background-color: rgba(238, 242, 245, 255);
+    position: relative;
+    width: 100%;
+    height: 120vh;
+}
+
+
+.class-para {
+    color: rgba(95, 96, 101, 255);
+    font-size: 40px;
+}
+
+
+
+
+
+.class-para2 {
+    color: rgba(95, 96, 101, 255);
+    font-size: 40px;
+}
+
+
+
+
+.class-para3 {
+    color: rgba(95, 96, 101, 255);
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+.first-btn {
+    padding: 5px;
+    width: 100px;
+    background-color: white;
+    border: 0.5px solid white;
+    border-radius: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+.post-grad-btn {
+    padding: 5px;
+    width: 180px;
+    border: 1px solid;
+    border-radius: 50px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.prof-btn {
+    padding: 5px;
+    width: 180px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+
+
+
+/*                          Sixth Page End                              */
+
+.choose-subject-part {
+    background-color: rgba(238, 242, 245, 255);
+    position: relative;
+    width: 100%;
+    height: 110vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hindi-btn {
+    padding: 5px;
+
+    border: 1px solid;
+    border-radius: 50px;
+    font-weight: 600;
+    text-transform: capitalize;
+    width: 100px;
+}
+
+
+
+
+
+
+/* Seventh Page End */
+.dot {
+    height: 150px;
+    width: 150px;
+    border: 30px solid rgba(251, 248, 248, 0.665);
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot-01 {
+    height: 280px;
+    width: 280px;
+    /* border: 30px solid rgba(251, 248, 248, 0.665); */
+
+    background-color: rgb(200, 202, 230);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.text1::placeholder {
+    color: white;
+}
+
+.dot02 {
+    height: 90px;
+    width: 90px;
+    /* border: 30px solid rgba(251, 248, 248, 0.665); */
+
+    background-color: rgb(70, 81, 235);
+    border-radius: 50%;
+    display: inline-block;
+}
